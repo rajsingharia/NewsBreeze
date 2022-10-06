@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/NewsApp_2/app/src/main/res/drawable/ic_back.xml" value="0.1565" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/NewsApp_2/app/src/main/res/drawable/ic_back_white.xml" value="0.18" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/NewsApp_2/app/src/main/res/drawable/ic_baseline_save_24.xml" value="0.1945" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/NewsApp_2/app/src/main/res/drawable/ic_bookmark.xml" value="0.208" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/NewsApp_2/app/src/main/res/drawable/ic_search.xml" value="0.18" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/NewsApp_2/app/src/main/res/drawable/round_background.xml" value="0.129" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/NewsApp_2/app/src/main/res/drawable/round_corner_white.xml" value="0.1565" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/NewsApp_2/app/src/main/res/drawable/round_green_background.xml" value="0.18" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/NewsApp_2/app/src/main/res/drawable/toogle_switch.xml" value="0.199" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/NewsApp_2/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/NewsApp_2/app/src/main/res/layout/activity_pop_up_menu.xml" value="0.2129115006412997" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/NewsApp_2/app/src/main/res/layout/activity_webview.xml" value="0.2129115006412997" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/NewsApp_2/app/src/main/res/layout/custom_pop_up_menu.xml" value="0.2129115006412997" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/NewsApp_2/app/src/main/res/layout/fragment_detail.xml" value="0.2099187687045746" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/NewsApp_2/app/src/main/res/layout/fragment_home.xml" value="0.2129115006412997" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/NewsApp_2/app/src/main/res/layout/fragment_save.xml" value="0.2129115006412997" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/NewsApp_2/app/src/main/res/layout/fragment_search.xml" value="0.2129115006412997" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/NewsApp_2/app/src/main/res/layout/fragment_splash.xml" value="0.259375" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/NewsApp_2/app/src/main/res/layout/news_single_row.xml" value="0.2129115006412997" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/NewsApp_2/app/src/main/res/layout/news_single_row_offline.xml" value="0.2129115006412997" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/NewsApp_2/app/src/main/res/layout/round_background.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/NewsApp_2/app/src/main/res/menu/popup_menu.xml" value="0.1102873030583874" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
