@@ -1,14 +1,12 @@
 package com.example.newsapp.viewmodel
 
 import androidx.lifecycle.*
-import com.example.newsapp.model.news_response_model.Article
 import com.example.newsapp.model.news_response_model.NewsResponse
-import com.example.newsapp.model.repository.NewsRepository
+import com.example.newsapp.repository.NewsRepository
 import com.example.newsapp.model.room_data_base.OfflineArticle
 import com.example.newsapp.util.NetworkResult
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
-import java.lang.IllegalArgumentException
 import javax.inject.Inject
 
 @HiltViewModel

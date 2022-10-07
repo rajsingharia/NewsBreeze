@@ -4,7 +4,7 @@ import android.content.Context
 import androidx.room.Room
 import com.example.newsapp.BuildConfig
 import com.example.newsapp.api.NewsApiService
-import com.example.newsapp.model.repository.NewsRepository
+import com.example.newsapp.repository.NewsRepository
 import com.example.newsapp.model.room_data_base.CacheNewsDao
 import com.example.newsapp.model.room_data_base.OfflineNewsDao
 import com.example.newsapp.model.room_data_base.OfflineNewsDataBase

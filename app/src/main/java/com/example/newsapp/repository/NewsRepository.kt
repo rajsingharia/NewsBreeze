@@ -1,4 +1,4 @@
-package com.example.newsapp.model.repository
+package com.example.newsapp.repository
 import com.example.newsapp.api.NewsApiService
 import com.example.newsapp.model.news_response_model.Article
 import com.example.newsapp.model.news_response_model.NewsResponse
@@ -21,15 +21,15 @@ class NewsRepository @Inject constructor(
          val response = apiService.getBreakingNews(countryCode,pageNumber)
          if(response.isSuccessful) {
             insertOfflineForCaching(response.body()!!,cacheNewsDao)
-            var articles = getCacheData(cacheNewsDao)
+            val articles = getCacheData(cacheNewsDao)
             NetworkResult.Success(articles)
          }
          else {
-            var articles = getCacheData(cacheNewsDao)
+            val articles = getCacheData(cacheNewsDao)
             NetworkResult.Error(response.message(),articles)
          }
       } catch (e: IOException) {
-         var articles = getCacheData(cacheNewsDao)
+         val articles = getCacheData(cacheNewsDao)
          NetworkResult.Error("Check Internet Connection",articles)
       }
    }
@@ -37,7 +37,7 @@ class NewsRepository @Inject constructor(
    private suspend fun getCacheData(cacheNewsDao:CacheNewsDao): NewsResponse {
       val response = cacheNewsDao.getAllCacheNews()
       //return response
-      var news:MutableList<Article> = mutableListOf()
+      val news:MutableList<Article> = mutableListOf()
       for (r in response) {
          val article = Article(r.author.toString(),
             r.content.toString(),
@@ -93,7 +93,7 @@ class NewsRepository @Inject constructor(
 
       val response = cacheNewsDao.getAllCacheNewsSortByDateTime()
 
-      var news:MutableList<Article> = mutableListOf()
+      val news:MutableList<Article> = mutableListOf()
       for (r in response) {
          val article = Article(r.author.toString(),r.content.toString(),r.description.toString(),r.publishedAt.toString(),r.title,r.url.toString(),r.urlToImage.toString())
          news.add(article)
@@ -119,7 +119,7 @@ class NewsRepository @Inject constructor(
 
       val response = offlineNewsDao.getAllOfflineNewsSortByDateTime()
 
-      var news:MutableList<Article> = mutableListOf()
+      val news:MutableList<Article> = mutableListOf()
       for (r in response) {
          val article = Article(r.author.toString(),r.content.toString(),r.description.toString(),r.publishedAt.toString(),r.title,r.url.toString(),r.urlToImage.toString())
          news.add(article)
